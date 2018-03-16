@@ -42,7 +42,7 @@ public class HttpServer implements Runnable {
                     data = "" + bytes.length;
                     format = "image/html";                                   
                 }else{
-                    bytes = Files.readAllBytes(new File("./../index.html").toPath());
+                    bytes = Files.readAllBytes(new File("./index.html").toPath());
                     data = "" + bytes.length;
                     format = "text/html";                   
                 }
